@@ -1,0 +1,47 @@
+Requisitos:
+-----------
+
+- Python versão 2.5 ou superior
+- PIL (Python Imaging Library)
+- NumPy e Scipy
+- SDC Morphology Toolbox for Python. Biblioteca MMorph para Python. Para rodar no seu computador precisa:
+  * solicitar uma licença
+  * executar o script "~/morph4python16/morphinstall", e logo abrir a página "~/morph4python16/register.html"
+  * preencher os campos e submeter o formulário
+  * você receverá um e-mail com a licença "pymorph_license.txt"
+  * copiar e colar a licença "pymorph_license.txt" na pasta "~/morph4python16/"
+
+
+Configurações:
+--------------
+
+Vamos supor que o software foi descarregado em /home/user/software/, e o pacote MMorph encontra-se em /home/user/software/morph4python16/.
+As seguintes configurações devem ser realizadas:
+
+- Incluir o caminho da licença do pacote MMorph na variável de ambiente PATH.
+  Deve-se digitar o seguinte: export PATH = $PATH:/home/user/software/morph4python16
+- Criar a variável de ambiente LD_LIBRARY_PATH,
+  para que o computador encontre as bibliotecas compartilhadas do software e do pacote MMorph (.so).
+  Deve-se digitar o seguinte: export LD_LIBRARY_PATH = $LD_LIBRARY_PATH:/home/user/software/morph4python16:/home/user/software
+
+
+Execução dos scripts:
+---------------------
+
+1. A través da GUI
+------------------
+
+Para executar a Interface gráfica, deve executar o script projeto.py. Por exemplo, num terminal escrever: python projeto.py
+
+
+2. A través dum terminal
+------------------------
+
+Executar o script respectivo de cada processo. Por exemplo, num terminal deve escrever:
+
+Para suavizado da imagem: python processoSuavizado.py '/home/user/folderWithImages/' '/home/user/folderWithImagesResult/' 8 60 30
+Para aplicar o filtro de Ordem: python processoFiltroDeOrdem.py '/home/user/folderWithImages/' '/home/user/folderWithImagesResult/' 6 1 10
+Para detecção de linhas: python processoDeteccaoDeContornos.py '/home/user/folderWithImages/' '/home/user/folderWithImagesResult/' 6 70 1 500
+Para detecção de elipses: python processoDeteccaoDeElipses.py '/home/user/folderWithImages' '/home/user/folderWithImagesResult' 150 0.1 150 0.3 500 50 0.95
+
+Observação: Os parâmetros são de exemplo, eles estão fortemente ligados com as características própias de cada tipo de imagens.
