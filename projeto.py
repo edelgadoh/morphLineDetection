@@ -173,7 +173,7 @@ class MM_ImageProcessing:
         label.show()      
         entry5.show()
 
-        button = gtk.Button("Executar")
+        button = gtk.Button("Run")
         button.connect("clicked", self.exec_suavizado,entry1,entry2,entry3,entry4,entry5)
         box.pack_start(button,False,False,3)        
         button.show()
@@ -181,7 +181,7 @@ class MM_ImageProcessing:
         box.show()
         frame.show()
         
-        label = gtk.Label("Suavizado")
+        label = gtk.Label("Smoothing")
         notebook.insert_page(frame, label, 2)
         label.show()
         
@@ -242,7 +242,7 @@ class MM_ImageProcessing:
         label.show()      
         entry5.show()
 
-        button = gtk.Button("Executar")
+        button = gtk.Button("Run")
         button.connect("clicked", self.exec_rank_filter,entry1,entry2,entry3,entry4,entry5)
         box.pack_start(button,False,False,3)        
         button.show()
@@ -321,7 +321,7 @@ class MM_ImageProcessing:
         label.show()      
         entry6.show()
       
-        button = gtk.Button("Executar")
+        button = gtk.Button("Run")
 
         button.connect("clicked", self.exec_edge_detection,entry1,entry2,entry3,entry4,entry5,entry6)
         box.pack_start(button,False,False,3)        
@@ -429,7 +429,7 @@ class MM_ImageProcessing:
         #label.show()      
         #entry9.show()
       
-        button = gtk.Button("Executar")
+        button = gtk.Button("Run")
 
         button.connect("clicked", self.exec_ellipse_detection,entry1,entry2,entry3,entry6,entry7,entry8)
         box.pack_start(button,False,False,3)        
