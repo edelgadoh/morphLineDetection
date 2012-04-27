@@ -1,5 +1,5 @@
 == Bem-vindo a MorphLineDetection
 
-O projeto MorphLineDetection é uma implementação em Python e C para meu projeto de mestrado em Ciência de Computação, no IME-USP. O projeto de mestrado está intitulado como "Uma abordagem para detecção de ovos de S. mansoni em imagens microscópicas". Para maiores detalhes do meu projeto, pode consultar no site http://www.vision.ime.usp.br/~edelgado/projeto.php
+O projeto MorphLineDetection é uma implementação em Python e C para meu projeto de mestrado em Ciência de Computação, no IME-USP. O projeto de mestrado está intitulado como "Detecção de ovos de S. Mansoni apartir da detecção de seus contornos". Para maiores detalhes do meu projeto, pode consultar no site http://www.vision.ime.usp.br/~edelgado/projeto.php
 
 No arquivo CONFIGURE encontrará os requisitos e as configurações básicas para executar a ferramenta computacional.
