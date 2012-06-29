@@ -1,0 +1,4 @@
+pil
+numpy
+scipy
+mmorph
