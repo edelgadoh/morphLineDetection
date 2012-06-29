@@ -2,5 +2,4 @@ language: python
 python:
 - 2.5
 - 2.6
-script:
-- python projeto.py
+script: nosetests
