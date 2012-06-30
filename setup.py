@@ -15,7 +15,7 @@ setup(
     url = "http://www.vision.ime.usp.br/~edelgado/projeto.php/",
     author = "Edwin Delgado H",
     author_email = "edychrist@gmail.com",
-    packages = find_packages(),
+    #packages = find_packages(),
     zip_safe = False,
     #install_requires = install_requires,
     test_suite = "tests.get_tests",
