@@ -9,4 +9,4 @@ install:
 #- pip install -r requirements.txt --use-mirrors
 - pip install -r requirements-test.txt --use-mirrors
 # command to run tests
-script: python tests.utils
+script: python -m tests.utils
