@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import unittest
-import projeto
+#import projeto
 
 class UtilsTestCase(unittest.TestCase):
 
