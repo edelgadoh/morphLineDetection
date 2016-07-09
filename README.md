@@ -82,3 +82,11 @@ python processoDeteccaoDeElipses.py '/home/user/folderWithImages' '/home/user/fo
 
 
 Observação: Os parâmetros são de exemplo, eles estão fortemente relacionados às características própias de cada tipo de imagens.
+
+
+AUTORES
+-------
+
+* Edwin Delgado Huaynalaya <edelgado@ime.usp.br>
+* Robert Ainsley McLaughlin <robert.mclaughlin@uwa.edu.au>
+* Nina T. S. Hirata <nina@ime.usp.br>
