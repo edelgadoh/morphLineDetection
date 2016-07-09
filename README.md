@@ -1,6 +1,9 @@
-== Bem-vindo a MorphLineDetection
+Projeto MorphLineDetection 
+--------------------------
 
-O projeto MorphLineDetection é uma implementação em Python e C para meu projeto de mestrado em Ciência de Computação, no IME-USP. O projeto de mestrado está intitulado como "Detecção de ovos de S. Mansoni apartir da detecção de seus contornos". Para maiores detalhes do meu projeto, pode consultar no site http://www.ime.usp.br/~edelgado/projeto.php
+O projeto MorphLineDetection "Detecção de linha usando técnicas de morfologia matemática" é uma implementação em Python e C.
+O projeto é a implementação do projeto de mestrado "Detecção de ovos de S. Mansoni apartir da detecção de seus contornos".
+Para maiores detalhes, imagens, vídeos segue o link do projeto: http://www.ime.usp.br/~edelgado/projeto.php
 
 
 Requerimentos:
@@ -84,7 +87,7 @@ python processoDeteccaoDeElipses.py '/home/user/folderWithImages' '/home/user/fo
 Observação: Os parâmetros são de exemplo, eles estão fortemente relacionados às características própias de cada tipo de imagens.
 
 
-AUTORES
+Autores
 -------
 
 * Edwin Delgado Huaynalaya <edelgado@ime.usp.br>
